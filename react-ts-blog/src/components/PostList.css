@@ -1,0 +1,76 @@
+.postdetail {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff7f0;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(255, 123, 0, 0.12);
+  padding: 36px;
+  color: #6b3e00;
+}
+
+.postdetail-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff7b00;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.postdetail-meta {
+  font-size: 1rem;
+  color: #cc6200;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.postdetail-img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(255, 123, 0, 0.15);
+  margin-bottom: 24px;
+  object-fit: cover;
+  height: 350px;
+}
+
+.postdetail-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: justify;
+  color: #6b3e00;
+}
+
+.postdetail-actions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.postdetail-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.postdetail-btn.back {
+  background: #fff1e0;
+  color: #a65300;
+}
+
+.postdetail-btn.back:hover {
+  background: #ffd7b3;
+}
+
+.postdetail-btn.delete {
+  background: #ff7b00;
+  color: #fff;
+}
+
+.postdetail-btn.delete:hover {
+  background: #cc6200;
+  transform: translateY(-1px);
+}

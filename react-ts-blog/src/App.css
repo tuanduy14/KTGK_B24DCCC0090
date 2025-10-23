@@ -1,0 +1,172 @@
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #fff8f3;
+  color: #2b2b2b;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  transition: filter 0.3s;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 1em #ff7b00a0);
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #ffd7b3;
+  padding: 2em;
+  box-shadow: 0 4px 20px rgba(255, 123, 0, 0.08);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #009dff;
+  font-weight: 700;
+}
+
+.editpost-container,
+.postdetail-container {
+  background: #ffffff;
+  color: #2b2b2b;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(255, 123, 0, 0.12);
+  padding: 36px;
+  margin: 48px auto;
+}
+
+.editpost-title,
+.postdetail-title {
+  color: #00ffff;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.postcard {
+  width: 100%;
+  max-width: 320px;
+  background: #fffdfb;
+  border-radius: 14px;
+  border: 1px solid #ffd7b3;
+  box-shadow: 0 2px 12px rgba(255, 123, 0, 0.08);
+  padding: 22px;
+  transition: all 0.25s ease;
+}
+.postcard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(255, 123, 0, 0.18);
+}
+
+.postcard-title {
+  color: #00b7ff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.postcard-meta {
+  color: #a65300;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.postcard-desc {
+  color: #5a3210;
+  font-size: 1rem;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.postcard-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.postcard-btn.read {
+  background: #ff7b00;
+  color: #fff;
+}
+.postcard-btn.read:hover {
+  background: #cc6200;
+}
+
+.postcard-btn.delete {
+  background: #fff1e0;
+  color: #a65300;
+}
+.postcard-btn.delete:hover {
+  background: #ffd7b3;
+}
+
+.postform {
+  max-width: 520px;
+  margin: 40px auto;
+  background: #fffdfb;
+  border-radius: 18px;
+  border: 1px solid #ffd7b3;
+  box-shadow: 0 4px 20px rgba(255, 123, 0, 0.08);
+  padding: 28px;
+}
+
+.postform-actions,
+.postdetail-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.postform-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.postform-btn.submit {
+  background: #007bff;
+  color: #fff;
+}
+.postform-btn.submit:hover {
+  background: #00c3ff;
+}
+
+.postform-btn.cancel {
+  background: #fff1e0;
+  color: #a65300;
+}
+.postform-btn.cancel:hover {
+  background: #ffd7b3;
+}
+
+.postlist-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 24px;
+  color: #00c3ff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.postlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  justify-items: center;
+}
